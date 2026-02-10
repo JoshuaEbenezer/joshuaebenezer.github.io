@@ -13,6 +13,7 @@ category: research
 Implemented and optimized a fog-removal algorithm on a Xilinx Zedboard FPGA, achieving **200 fps processing speed** for real-time video dehazing. The project involved designing the algorithm in synthesizable hardware description language and integrating system-level blocks.
 
 **Technical Accomplishments:**
+
 - **Framework:** Vivado HLS, Vivado IP Integrator
 - **Target:** Xilinx Zedboard FPGA
 - **Algorithm:** Anisotropic diffusion-based fog removal

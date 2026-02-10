@@ -65,8 +65,9 @@ I am currently working through Augustine's masterpiece **"The City of God,"** wr
 ## Authors Who Shaped My Thinking
 
 Several authors have profoundly shaped my worldview:
+
 - **C.S. Lewis** — on faith, reason, and human nature
-- **Augustine** — and Augustinian theology through Calvin, John Piper, and R.C. Sproul  
+- **Augustine** — and Augustinian theology through Calvin, John Piper, and R.C. Sproul
 - **Philip Yancey** — on grace and redemption
 
 ## Childhood Reading

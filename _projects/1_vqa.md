@@ -13,6 +13,7 @@ Developed a novel no-reference video quality assessment (VQA) metric using space
 The space-time chips approach provides a computationally efficient alternative to traditional frame-based features while capturing both spatial and temporal information relevant to video quality perception.
 
 **Resources:**
+
 - [ChipQA Paper](/assets/pdf/chipqa0.pdf)
 - [Presentation Slides](/assets/pdf/chipqa0_slides.pdf)
 - [Publications on Google Scholar](https://scholar.google.co.in/citations?user=xbQZ-PUAAAAJ&hl=en)

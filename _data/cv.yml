@@ -5,7 +5,7 @@ cv:
   location: San Francisco Bay Area, California
   image: ""
   summary: Staff Research Engineer with 6+ years building production-grade deep learning systems for computational photography and video quality. Led AI models deployed on millions of devices; 5 US patents, CVPR/TIP/ICIP/ICASSP publications, and direct ownership of core camera pipelines.
-  
+
   social_networks:
     - network: LinkedIn
       username: joshua-peter-ebenezer
@@ -24,7 +24,7 @@ cv:
           - "Advisor: Prof. Alan Bovik"
           - "Thesis: No-Reference Video Quality Assessment for Livestreamed HDR and High-Motion Videos"
           - "Sponsored by Amazon Prime Video"
-      
+
       - institution: Indian Institute of Technology (IIT) Kharagpur
         location: Kharagpur, India
         area: Electronics & Electrical Communication Engineering

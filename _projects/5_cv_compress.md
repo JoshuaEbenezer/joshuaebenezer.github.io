@@ -12,16 +12,19 @@ Developed online learning-based methods to reconstruct video frames during poor 
 
 **Problem Statement:**
 In adaptive bitrate video streaming, channel degradation causes:
+
 - Increased compression artifacts
 - Spatial downsampling
 - Frame quality reduction
 
 **Solution Approach:**
+
 - Temporal self-similarity analysis across video frames
 - Online learning framework for frame reconstruction
 - Exploitation of correlation patterns between good and degraded frames
 
 **Applications:**
+
 - Streaming services (Netflix, Prime Video, YouTube)
 - Mobile video delivery
 - Real-time communication platforms

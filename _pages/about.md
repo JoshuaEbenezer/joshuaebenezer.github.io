@@ -22,6 +22,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 I am a Staff Research Engineer at Samsung Research America's (SRA) Mobile Processor Innovation (MPI) Lab, where I work on commercial camera projects (Telephoto Zoom, Night mode) and Generative AI for flagship phones. I completed my PhD at the Laboratory for Image and Video Engineering (LIVE) at UT Austin (2019–2023) under Prof. Alan Bovik and served as Assistant Director of LIVE from 2020–2023.
 
 My research interests include computational photography, image and video quality assessment, and deep learning. I received a B.Tech. from IIT Kharagpur (GPA: 9.77/10, Institute Rank 3/643, Nilanjan Ganguly Memorial Award for best undergraduate thesis) and my PhD thesis focused on no-reference video quality assessment for livestreamed high-motion and HDR videos (sponsored by Amazon Prime Video).
