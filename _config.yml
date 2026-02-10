@@ -262,6 +262,13 @@ jekyll-archives:
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
+socials:
+  email: joshuapeterebenezer@gmail.com
+  github: JoshuaEbenezer
+  linkedin: joshua-peter-ebenezer
+  scholar_userid: xbQZ-PUAAAAJ
+  cv_pdf: /assets/pdf/20260209_simpleCV.pdf
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
