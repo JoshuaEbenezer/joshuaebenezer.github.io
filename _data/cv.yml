@@ -2,7 +2,7 @@ cv:
   name: Joshua Peter Ebenezer
   label: Staff Research Engineer
   email: joshuapeterebenezer@gmail.com
-  location: San Francisco Bay Area, California
+  location: Plano, TX 
   image: ""
   summary: Staff Research Engineer with 6+ years building production-grade deep learning systems for computational photography and video quality. Led AI models deployed on millions of devices; 5 US patents, CVPR/TIP/ICIP/ICASSP publications, and direct ownership of core camera pipelines.
 
@@ -40,7 +40,7 @@ cv:
     Experience:
       - company: Samsung Research America
         position: Staff Research Engineer
-        location: San Francisco, CA
+        location: Plano, TX
         start_date: 2025-03
         end_date: null
         summary: Leading end-to-end development of production AI models for flagship Samsung camera systems deployed across 30+ million devices.
@@ -52,7 +52,7 @@ cv:
 
       - company: Samsung Research America
         position: Senior Research Engineer
-        location: San Francisco, CA
+        location: Plano, TX
         start_date: 2023-06
         end_date: 2025-03
         summary: Developed AI systems for Super-Resolution and Night Mode imaging in telephoto cameras.
