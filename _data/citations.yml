@@ -1,3 +1,111 @@
 metadata:
-  last_updated: '2026-02-09'
-papers: {}
+  last_updated: '2026-02-16'
+papers:
+  xbQZ-PUAAAAJ:0EnyYjriUFMC:
+    citations: 9
+    title: 'HDR-ChipQA: No-reference quality assessment on high dynamic range videos'
+    year: '2023'
+  xbQZ-PUAAAAJ:3fE2CSJIrl8C:
+    citations: 3
+    title: 'Quality assessment in media and entertainment: Challenges and trends'
+    year: '2024'
+  xbQZ-PUAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: 'No-reference video quality assessment: high motion and high dynamic range videos'
+    year: '2023'
+  xbQZ-PUAAAAJ:9yKSN-GCB0IC:
+    citations: 3
+    title: A fast and accurate class of carrier recovery schemes
+    year: '2019'
+  xbQZ-PUAAAAJ:IjCSPb-OGe4C:
+    citations: 27
+    title: A comparative study of single image fog removal methods
+    year: '2022'
+  xbQZ-PUAAAAJ:KlAtU1dfN6UC:
+    citations: 0
+    title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
+    year: '2025'
+  xbQZ-PUAAAAJ:LkGwnXOMwfcC:
+    citations: 5
+    title: Subjective and objective quality assessment of high-motion sports videos at low-bitrates
+    year: '2022'
+  xbQZ-PUAAAAJ:MXK_kJrjxJIC:
+    citations: 21
+    title: A study of subjective and objective quality assessment of HDR videos
+    year: '2023'
+  xbQZ-PUAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: A subjective study of the perceptual acceptability of audio-video desynchronization in sports videos
+    year: '2022'
+  xbQZ-PUAAAAJ:Tyk-4Ss8FVUC:
+    citations: 20
+    title: Detection of audio-video synchronization errors via event detection
+    year: '2021'
+  xbQZ-PUAAAAJ:ULOm3_A8WrAC:
+    citations: 0
+    title: Image alignment for multi-frame fusion of tetra or other image data
+    year: '2025'
+  xbQZ-PUAAAAJ:UeHWp8X0CEIC:
+    citations: 28
+    title: No-reference video quality assessment using space-time chips
+    year: '2020'
+  xbQZ-PUAAAAJ:UebtZRa9Y70C:
+    citations: 12
+    title: Making video quality assessment models robust to bit depth
+    year: '2023'
+  xbQZ-PUAAAAJ:W7OEmFMy1HYC:
+    citations: 51
+    title: 'ChipQA: No-reference video quality prediction via space-time chips'
+    year: '2021'
+  xbQZ-PUAAAAJ:WF5omc3nYNoC:
+    citations: 53
+    title: Study of the subjective and objective quality of high motion live streaming videos
+    year: '2021'
+  xbQZ-PUAAAAJ:Y0pCki6q_DkC:
+    citations: 16
+    title: Assessment of Subjective and Objective Quality of Live Streaming Sports Videos
+    year: '2021'
+  xbQZ-PUAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: Fog removal from videos
+    year: '2019'
+  xbQZ-PUAAAAJ:Zph67rFs4hoC:
+    citations: 0
+    title: 3D modeling of Fuel handling System for PFBR operator training simulator
+    year: '2017'
+  xbQZ-PUAAAAJ:_FxGoFyzp5QC:
+    citations: 3
+    title: Detecting audio-video desyncrhonization
+    year: '2022'
+  xbQZ-PUAAAAJ:d1gkVwhDpl0C:
+    citations: 12
+    title: A screening CAD tool for the detection of microcalcification clusters in mammograms
+    year: '2019'
+  xbQZ-PUAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: P2P Live Streaming with Recommender Systems
+    year: '2021'
+  xbQZ-PUAAAAJ:hqOjcs7Dif8C:
+    citations: 9
+    title: HDR or SDR? A subjective and objective study of scaled and compressed videos
+    year: '2024'
+  xbQZ-PUAAAAJ:kNdYIx-mwKoC:
+    citations: 1
+    title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
+    year: '2025'
+  xbQZ-PUAAAAJ:roLk4NBRz8UC:
+    citations: 36
+    title: Subjective assessment of high dynamic range videos under different ambient conditions
+    year: '2022'
+  xbQZ-PUAAAAJ:u-x6o8ySG0sC:
+    citations: 10
+    title: Automatic segmentation of skin lesions using deep learning
+    year: '2018'
+  xbQZ-PUAAAAJ:u5HHmVD_uO8C:
+    citations: 25
+    title: Single image haze removal using conditional wasserstein generative adversarial networks
+    year: '2019'
+  xbQZ-PUAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: Combinatorial Auctions
+    year: '2020'
