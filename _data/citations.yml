@@ -1,10 +1,10 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-02-20'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
-    citations: 9
+    citations: 10
     title: 'HDR-ChipQA: No-reference quality assessment on high dynamic range videos'
-    year: '2023'
+    year: '2024'
   xbQZ-PUAAAAJ:3fE2CSJIrl8C:
     citations: 3
     title: 'Quality assessment in media and entertainment: Challenges and trends'
@@ -30,7 +30,7 @@ papers:
     title: Subjective and objective quality assessment of high-motion sports videos at low-bitrates
     year: '2022'
   xbQZ-PUAAAAJ:MXK_kJrjxJIC:
-    citations: 21
+    citations: 22
     title: A study of subjective and objective quality assessment of HDR videos
     year: '2023'
   xbQZ-PUAAAAJ:Se3iqnhoufwC:
@@ -46,7 +46,7 @@ papers:
     title: Image alignment for multi-frame fusion of tetra or other image data
     year: '2025'
   xbQZ-PUAAAAJ:UeHWp8X0CEIC:
-    citations: 28
+    citations: 27
     title: No-reference video quality assessment using space-time chips
     year: '2020'
   xbQZ-PUAAAAJ:UebtZRa9Y70C:
@@ -54,11 +54,11 @@ papers:
     title: Making video quality assessment models robust to bit depth
     year: '2023'
   xbQZ-PUAAAAJ:W7OEmFMy1HYC:
-    citations: 51
+    citations: 52
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
-    citations: 53
+    citations: 51
     title: Study of the subjective and objective quality of high motion live streaming videos
     year: '2021'
   xbQZ-PUAAAAJ:Y0pCki6q_DkC:
@@ -78,7 +78,7 @@ papers:
     title: Detecting audio-video desyncrhonization
     year: '2022'
   xbQZ-PUAAAAJ:d1gkVwhDpl0C:
-    citations: 12
+    citations: 13
     title: A screening CAD tool for the detection of microcalcification clusters in mammograms
     year: '2019'
   xbQZ-PUAAAAJ:eQOLeE2rZwMC:
@@ -86,15 +86,15 @@ papers:
     title: P2P Live Streaming with Recommender Systems
     year: '2021'
   xbQZ-PUAAAAJ:hqOjcs7Dif8C:
-    citations: 9
-    title: HDR or SDR? A subjective and objective study of scaled and compressed videos
+    citations: 10
+    title: Hdr or sdr? a subjective and objective study of scaled and compressed videos
     year: '2024'
   xbQZ-PUAAAAJ:kNdYIx-mwKoC:
     citations: 1
     title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
     year: '2025'
   xbQZ-PUAAAAJ:roLk4NBRz8UC:
-    citations: 36
+    citations: 37
     title: Subjective assessment of high dynamic range videos under different ambient conditions
     year: '2022'
   xbQZ-PUAAAAJ:u-x6o8ySG0sC:
