@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-02-25'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 10
@@ -26,7 +26,7 @@ papers:
     title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
     year: '2025'
   xbQZ-PUAAAAJ:LkGwnXOMwfcC:
-    citations: 5
+    citations: 6
     title: Subjective and objective quality assessment of high-motion sports videos at low-bitrates
     year: '2022'
   xbQZ-PUAAAAJ:MXK_kJrjxJIC:
@@ -58,7 +58,7 @@ papers:
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
-    citations: 51
+    citations: 52
     title: Study of the subjective and objective quality of high motion live streaming videos
     year: '2021'
   xbQZ-PUAAAAJ:Y0pCki6q_DkC:
