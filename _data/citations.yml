@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-27'
+  last_updated: '2026-03-30'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -58,7 +58,7 @@ papers:
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
-    citations: 53
+    citations: 54
     title: Study of the subjective and objective quality of high motion live streaming videos
     year: '2021'
   xbQZ-PUAAAAJ:Y0pCki6q_DkC:
