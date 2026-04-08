@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-08'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -73,6 +73,10 @@ papers:
     citations: 5
     title: Detecting audio-video desyncrhonization
     year: '2022'
+  xbQZ-PUAAAAJ:_kc_bZDykSQC:
+    citations: 0
+    title: 'GenMFSR: Generative Multi-Frame Image Restoration and Super-Resolution'
+    year: '2026'
   xbQZ-PUAAAAJ:d1gkVwhDpl0C:
     citations: 13
     title: A screening CAD tool for the detection of microcalcification clusters in mammograms
@@ -86,7 +90,7 @@ papers:
     title: Hdr or sdr? a subjective and objective study of scaled and compressed videos
     year: '2024'
   xbQZ-PUAAAAJ:kNdYIx-mwKoC:
-    citations: 1
+    citations: 2
     title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
     year: '2025'
   xbQZ-PUAAAAJ:roLk4NBRz8UC:
