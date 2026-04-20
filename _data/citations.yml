@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-04-20'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -34,7 +34,7 @@ papers:
     title: Subjective and objective quality assessment of high-motion sports videos at low-bitrates
     year: '2022'
   xbQZ-PUAAAAJ:MXK_kJrjxJIC:
-    citations: 26
+    citations: 27
     title: A study of subjective and objective quality assessment of HDR videos
     year: '2023'
   xbQZ-PUAAAAJ:Se3iqnhoufwC:
@@ -58,7 +58,7 @@ papers:
     title: Making video quality assessment models robust to bit depth
     year: '2023'
   xbQZ-PUAAAAJ:W7OEmFMy1HYC:
-    citations: 55
+    citations: 56
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
@@ -98,7 +98,7 @@ papers:
     title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
     year: '2025'
   xbQZ-PUAAAAJ:roLk4NBRz8UC:
-    citations: 39
+    citations: 40
     title: Subjective assessment of high dynamic range videos under different ambient conditions
     year: '2022'
   xbQZ-PUAAAAJ:u-x6o8ySG0sC:
