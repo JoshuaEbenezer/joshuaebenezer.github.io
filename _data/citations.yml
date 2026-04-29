@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-20'
+  last_updated: '2026-04-29'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -34,7 +34,7 @@ papers:
     title: Subjective and objective quality assessment of high-motion sports videos at low-bitrates
     year: '2022'
   xbQZ-PUAAAAJ:MXK_kJrjxJIC:
-    citations: 27
+    citations: 28
     title: A study of subjective and objective quality assessment of HDR videos
     year: '2023'
   xbQZ-PUAAAAJ:Se3iqnhoufwC:
@@ -58,11 +58,11 @@ papers:
     title: Making video quality assessment models robust to bit depth
     year: '2023'
   xbQZ-PUAAAAJ:W7OEmFMy1HYC:
-    citations: 56
+    citations: 58
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
-    citations: 54
+    citations: 56
     title: Study of the subjective and objective quality of high motion live streaming videos
     year: '2021'
   xbQZ-PUAAAAJ:Y0pCki6q_DkC:
@@ -74,7 +74,7 @@ papers:
     title: Fog removal from videos
     year: '2019'
   xbQZ-PUAAAAJ:_FxGoFyzp5QC:
-    citations: 5
+    citations: 3
     title: Detecting audio-video desyncrhonization
     year: '2022'
   xbQZ-PUAAAAJ:_kc_bZDykSQC:
@@ -94,7 +94,7 @@ papers:
     title: Hdr or sdr? a subjective and objective study of scaled and compressed videos
     year: '2024'
   xbQZ-PUAAAAJ:kNdYIx-mwKoC:
-    citations: 3
+    citations: 4
     title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
     year: '2025'
   xbQZ-PUAAAAJ:roLk4NBRz8UC:
