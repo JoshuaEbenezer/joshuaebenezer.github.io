@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-05-27'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -22,7 +22,7 @@ papers:
     title: A fast and accurate class of carrier recovery schemes
     year: '2019'
   xbQZ-PUAAAAJ:IjCSPb-OGe4C:
-    citations: 27
+    citations: 28
     title: A comparative study of single image fog removal methods
     year: '2022'
   xbQZ-PUAAAAJ:KlAtU1dfN6UC:
@@ -42,7 +42,7 @@ papers:
     title: A subjective study of the perceptual acceptability of audio-video desynchronization in sports videos
     year: '2022'
   xbQZ-PUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 20
+    citations: 21
     title: Detection of audio-video synchronization errors via event detection
     year: '2021'
   xbQZ-PUAAAAJ:ULOm3_A8WrAC:
@@ -58,7 +58,7 @@ papers:
     title: Making video quality assessment models robust to bit depth
     year: '2023'
   xbQZ-PUAAAAJ:W7OEmFMy1HYC:
-    citations: 58
+    citations: 57
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
@@ -74,7 +74,7 @@ papers:
     title: Fog removal from videos
     year: '2019'
   xbQZ-PUAAAAJ:_FxGoFyzp5QC:
-    citations: 5
+    citations: 6
     title: Detecting audio-video desyncrhonization
     year: '2022'
   xbQZ-PUAAAAJ:_kc_bZDykSQC:
@@ -106,7 +106,7 @@ papers:
     title: Automatic segmentation of skin lesions using deep learning
     year: '2018'
   xbQZ-PUAAAAJ:u5HHmVD_uO8C:
-    citations: 25
+    citations: 26
     title: Single image haze removal using conditional wasserstein generative adversarial networks
     year: '2019'
   xbQZ-PUAAAAJ:ufrVoPGSRksC:
