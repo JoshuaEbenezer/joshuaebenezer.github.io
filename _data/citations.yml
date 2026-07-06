@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-07-06'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -22,8 +22,8 @@ papers:
     title: A fast and accurate class of carrier recovery schemes
     year: '2019'
   xbQZ-PUAAAAJ:IjCSPb-OGe4C:
-    citations: 28
-    title: A comparative study of single image fog removal methods
+    citations: 29
+    title: A comparative study of single image fog removal methods.
     year: '2022'
   xbQZ-PUAAAAJ:KlAtU1dfN6UC:
     citations: 0
@@ -42,7 +42,7 @@ papers:
     title: A subjective study of the perceptual acceptability of audio-video desynchronization in sports videos
     year: '2022'
   xbQZ-PUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 21
+    citations: 22
     title: Detection of audio-video synchronization errors via event detection
     year: '2021'
   xbQZ-PUAAAAJ:ULOm3_A8WrAC:
@@ -58,15 +58,15 @@ papers:
     title: Making video quality assessment models robust to bit depth
     year: '2023'
   xbQZ-PUAAAAJ:W7OEmFMy1HYC:
-    citations: 58
+    citations: 59
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
-    citations: 56
+    citations: 58
     title: Study of the subjective and objective quality of high motion live streaming videos
     year: '2021'
   xbQZ-PUAAAAJ:Y0pCki6q_DkC:
-    citations: 17
+    citations: 20
     title: Assessment of Subjective and Objective Quality of Live Streaming Sports Videos
     year: '2021'
   xbQZ-PUAAAAJ:YsMSGLbcyi4C:
@@ -82,7 +82,7 @@ papers:
     title: 'GenMFSR: Generative Multi-Frame Image Restoration and Super-Resolution'
     year: '2026'
   xbQZ-PUAAAAJ:d1gkVwhDpl0C:
-    citations: 13
+    citations: 14
     title: A screening CAD tool for the detection of microcalcification clusters in mammograms
     year: '2019'
   xbQZ-PUAAAAJ:eQOLeE2rZwMC:
@@ -90,7 +90,7 @@ papers:
     title: P2P Live Streaming with Recommender Systems
     year: '2021'
   xbQZ-PUAAAAJ:hqOjcs7Dif8C:
-    citations: 13
+    citations: 14
     title: Hdr or sdr? a subjective and objective study of scaled and compressed videos
     year: '2024'
   xbQZ-PUAAAAJ:kNdYIx-mwKoC:
@@ -98,7 +98,7 @@ papers:
     title: 'MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling'
     year: '2025'
   xbQZ-PUAAAAJ:roLk4NBRz8UC:
-    citations: 40
+    citations: 42
     title: Subjective assessment of high dynamic range videos under different ambient conditions
     year: '2022'
   xbQZ-PUAAAAJ:u-x6o8ySG0sC:
