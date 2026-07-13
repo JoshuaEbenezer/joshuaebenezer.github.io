@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-13'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -23,7 +23,7 @@ papers:
     year: '2019'
   xbQZ-PUAAAAJ:IjCSPb-OGe4C:
     citations: 29
-    title: A comparative study of single image fog removal methods.
+    title: A comparative study of single image fog removal methods
     year: '2022'
   xbQZ-PUAAAAJ:KlAtU1dfN6UC:
     citations: 0
@@ -58,7 +58,7 @@ papers:
     title: Making video quality assessment models robust to bit depth
     year: '2023'
   xbQZ-PUAAAAJ:W7OEmFMy1HYC:
-    citations: 59
+    citations: 60
     title: 'ChipQA: No-reference video quality prediction via space-time chips'
     year: '2021'
   xbQZ-PUAAAAJ:WF5omc3nYNoC:
