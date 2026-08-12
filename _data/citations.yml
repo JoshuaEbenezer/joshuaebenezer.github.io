@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-12'
 papers:
   xbQZ-PUAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -90,11 +90,11 @@ papers:
     title: Hdr or sdr? a subjective and objective study of scaled and compressed videos
     year: '2024'
   xbQZ-PUAAAAJ:kNdYIx-mwKoC:
-    citations: 4
+    citations: 5
     title: 'Mfsr-gan: Multi-frame super-resolution with handheld motion modeling'
     year: '2025'
   xbQZ-PUAAAAJ:roLk4NBRz8UC:
-    citations: 42
+    citations: 43
     title: Subjective assessment of high dynamic range videos under different ambient conditions
     year: '2022'
   xbQZ-PUAAAAJ:u-x6o8ySG0sC:
