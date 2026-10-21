@@ -9,7 +9,7 @@ last_name: Ebenezer
 contact_note: >
   Best reached via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Staff Research Engineer passionate about computational photography, video quality assessment, and deep learning. Currently at Samsung Research America.
+  Senior Computer Vision and Machine Learning Engineer at Apple, working on generative AI for images. Previously at Samsung Research; PhD from UT Austin.
 footer_text: >
   © 2025 Joshua Peter Ebenezer.
 keywords: computational photography, video quality assessment, deep learning, research, computer vision # add your own keywords or leave empty
@@ -270,7 +270,7 @@ socials:
   github: JoshuaEbenezer
   linkedin: joshua-peter-ebenezer
   scholar_userid: xbQZ-PUAAAAJ
-  cv_pdf: /assets/pdf/20260209_simpleCV.pdf
+  cv_pdf: /assets/pdf/20261020_CV.pdf
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

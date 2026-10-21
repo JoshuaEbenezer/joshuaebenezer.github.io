@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include scholar_head.liquid %}
+  </head>
+  <body>
+    <main class="page post-page">
+      <p class="back-link">
+        <a href="{{ '/' | relative_url }}">&larr; {{ site.title }}</a>
+      </p>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+      <footer>
+        {{ site.footer_text }}
+        Design adapted from <a href="https://jonbarron.info">Jon Barron's website</a>.
+      </footer>
+    </main>
+  </body>
+</html>

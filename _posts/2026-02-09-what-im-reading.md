@@ -1,14 +1,21 @@
 ---
-layout: post
+layout: scholar_post
 title: Book List
-date: 2026-02-09
-categories: reading theology philosophy
-description: Books that have shaped my thinking on theology, philosophy, history, and faith
+date: 2026-10-20
+description: Books that I'm reading and have read
 ---
 
-I have a lot of interest in theology, philosophy, and history. I also read fiction sometimes. Here are some titles I have recently read and would recommend:
+I have a lot of interest in theology, philosophy, and history. I also read fiction sometimes. I'm going to maintain this page to hold myself accountable to keep reading in an age of constant distraction, slop, and mindless entertainment. Here are some titles I have recently read and would recommend:
 
 ## Recently Read & Recommended
+
+**The Ecclesiastical History** by Eusebius
+
+This book was written c. 325 AD by Eusebius, and traces the history of the Church from the time of the apostles to the time of Constantine. Eusebius narrates anecdotes that had been preserved of the apostle's lives, traditions of how the gospels were compiled and written, and tracks the succession of leadership in the five ancient sees of the church over three centuries. The book sheds light on theological disputes of the time and how they were dealt with in synods and councils. It was a fascinating read.
+
+**The Guns of Navarone** by Alistair MacLean
+
+Took me too long to get to. A gripping adventure of sabotage and thrill set in WW2. Perhaps what struck me the most was Alistair's constant notes on the moral dilemma characters faced as they had to grapple with attacking or killing another human, labeled as the enemy by forces outside their control. Their justifications were that they were in situations were they had to kill or be killed, but Alistair does bring out their struggles in living with that.
 
 **Dominion** by Tom Holland
 
@@ -56,23 +63,7 @@ Plantinga shows that almost all belief systems use circular reasoning. Much depe
 
 ## Currently Reading
 
-I am currently working through Augustine's masterpiece **"The City of God,"** written as a rebuttal to Roman pagans who blamed Christians for Rome's fall. This work also emphasizes that Christians belong not to any earthly city, and that our identities are not defined by political affiliations.
-
-## Books I Don't Recommend
-
-**1984** by George Orwell and **The Master and Margarita** by Mikhail Bulgakov deserve mention as classics I didn't find compelling. Much of 1984's content is widely known today as a consequence of the USSR's fall, and much of the book reads as lecture rather than story. "The Master and Margarita" is a celebrated work of Russian literature, but much of its charm lies in its use of language, which doesn't shine as clearly in English translation.
-
-## Authors Who Shaped My Thinking
-
-Several authors have profoundly shaped my worldview:
-
-- **C.S. Lewis** — on faith, reason, and human nature
-- **Augustine** — and Augustinian theology through Calvin, John Piper, and R.C. Sproul
-- **Philip Yancey** — on grace and redemption
-
-## Childhood Reading
-
-When younger, I completed Enid Blyton's Secret Seven and Famous Five series—highly recommended for school-age readers. I also worked through Agatha Christie's Miss Marple and Hercule Poirot series, and the Perry Mason mystery series. Excellent detective fiction for light, engaging reads.
+I am currently working through Tacitus and Don Quixote.
 
 ---
 

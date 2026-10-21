@@ -1,0 +1,624 @@
+# Publications shown on the home page (layout: _layouts/scholar_home.liquid).
+# Initially pulled from Google Scholar (user xbQZ-PUAAAAJ) in October 2026.
+# Entries are listed in the order they appear on the page.
+# section: research | patents | other
+# image: thumbnail under assets/img/publications/ (replace the file to change it)
+# pdf: direct link to the PDF; links: extra links shown after it
+# equal_contribution: true shows "* Equal contribution"; mark the authors with * in `authors`
+- title: "DRIFT: Deep Restoration, ISP Fusion, and Tone-mapping"
+  authors: >-
+    Soumendu Majee*, Joshua Peter Ebenezer*, Abhinau K Venkataramanan, Weidi Liu, Thilo Balke, Zeeshan Nadir,
+    Sreenithy Chandran, Seok-Jun Lee, Hamid Rahim Sheikh
+  equal_contribution: true
+  venue: arXiv preprint
+  year: 2026
+  section: research
+  image: /assets/img/publications/drift.jpg
+  pdf: https://arxiv.org/pdf/2604.03402
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2604.03402
+  abstract: >-
+    Smartphone cameras have gained immense popularity with the adoption of high-resolution and high-dynamic
+    range imaging. As a result, high-performance camera Image Signal Processors (ISPs) are crucial in
+    generating high-quality images for the end user while keeping computational costs low. In this paper,
+    we propose DRIFT (Deep Restoration, ISP Fusion, and Tone-mapping): an efficient AI mobile camera pipeline
+    that generates high quality RGB images from hand-held raw captures. The first stage of DRIFT is a
+    Multi-Frame Processing (MFP) network that is trained using a adversarial perceptual loss to perform
+    multi-frame alignment, denoising, demosaicing, and super-resolution. Then, the output of DRIFT-MFP
+    is processed by a novel deep-learning based tone-mapping (DRIFT-TM) solution that allows for tone
+    tunability, ensures tone-consistency with a reference pipeline, and can be run efficiently for high-resolution
+    images on a mobile device. We show qualitative and quantitative comparisons against state-of-the-art
+    MFP and tone-mapping methods to demonstrate the effectiveness of our approach.
+  scholar_id: 4TOpqqG69KYC
+- title: "GenMFSR: Generative Multi-Frame Image Restoration and Super-Resolution"
+  authors: >-
+    Harshana Weligampola, Joshua Peter Ebenezer, Weidi Liu, Abhinau K Venkataramanan, Sreenithy Chandran,
+    Seok-Jun Lee, Hamid Rahim Sheikh
+  venue: arXiv preprint
+  year: 2026
+  section: research
+  image: /assets/img/publications/genmfsr.jpg
+  pdf: https://arxiv.org/pdf/2603.19187
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2603.19187
+  abstract: >-
+    Camera pipelines receive raw Bayer-format frames that need to be denoised, demosaiced, and often super-resolved.
+    Multiple frames are captured to utilize natural hand tremors and enhance resolution. Multi-frame super-resolution
+    is therefore a fundamental problem in camera pipelines. Existing adversarial methods are constrained
+    by the quality of ground truth. We propose GenMFSR, the first Generative Multi-Frame Raw-to-RGB Super
+    Resolution pipeline, that incorporates image priors from foundation models to obtain sub-pixel information
+    for camera ISP applications. GenMFSR can align multiple raw frames, unlike existing single-frame super-resolution
+    methods, and we propose a loss term that restricts generation to high-frequency regions in the raw
+    domain, thus preventing low-frequency artifacts.
+  scholar_id: _kc_bZDykSQC
+- title: Image Alignment for Multi-Frame Fusion of Tetra or Other Image Data
+  authors: Joshua P Ebenezer, Haegeun Lee, Hamid Rahim Sheikh
+  venue: US Patent Application 2025/0225667 A1
+  year: 2025
+  section: patents
+  image: /assets/img/publications/patent-tetra-alignment.jpg
+  pdf: null
+  links:
+    - name: patent
+      url: https://patents.google.com/patent/US20250225667A1/en
+  abstract: >-
+    Non-Bayer color filter array (CFA) input images including reference and non-reference images each
+    having a non-Bayer CFA pattern are obtained. Reference and non-reference luma images respectively
+    corresponding to a reference Bayer-like pattern based on the reference image and a non-reference Bayer-like
+    pattern based on the non-reference image are generated. A resolution of each luma image is approximately
+    half a resolution of each input image. A smoothing operation is performed on the luma images to remove
+    artifacts and generate filtered reference and non-reference luma images. Motion vectors based on the
+    filtered luma images are identified, and the motion vectors and filtered luma images are upscaled
+    to generate upscaled motion vectors and upscaled luma images. High-resolution refinement of the upscaled
+    motion vectors is performed based on the upscaled luma images to generate a finalized motion vector,
+    and the input images are aligned with one another based on the finalized motion vector.
+  scholar_id: ULOm3_A8WrAC
+- title: "MFSR-GAN: Multi-Frame Super-Resolution with Handheld Motion Modeling"
+  authors: Fadeel Sher Khan, Joshua Ebenezer, Hamid Sheikh, Seok-Jun Lee
+  venue: CVPR Workshops (CVPRW)
+  year: 2025
+  section: research
+  image: /assets/img/publications/mfsr-gan.jpg
+  pdf: https://arxiv.org/pdf/2502.20824
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/11147534/
+    - name: arXiv
+      url: https://arxiv.org/abs/2502.20824
+  abstract: >-
+    Smartphone cameras have become ubiquitous imaging tools, yet their small sensors and compact optics
+    often limit spatial resolution and introduce distortions. Combining information from multiple low-resolution
+    (LR) frames to produce a high-resolution (HR) image has been explored to overcome the inherent limitations
+    of smartphone cameras. Despite the promise of multi-frame super-resolution (MFSR), current approaches
+    are hindered by datasets that fail to capture the characteristic noise and motion patterns found in
+    real-world handheld burst images. In this work, we address this gap by introducing a novel synthetic
+    data engine that uses multi-exposure static images to synthesize LR-HR training pairs while preserving
+    sensor-specific noise characteristics and image motion found during handheld burst photography. We
+    also propose MFSR-GAN: a multi-scale RAW-to-RGB network for MFSR. Compared to prior approaches, MFSR-GAN
+    emphasizes a "base frame" throughout its architecture to mitigate artifacts. Experimental results
+    on both synthetic and real data demonstrates that MFSR-GAN trained with our synthetic engine yields
+    sharper, more realistic reconstructions than existing methods for real-world MFSR.
+  scholar_id: kNdYIx-mwKoC
+- title: "HDR-ChipQA: No-Reference Quality Assessment on High Dynamic Range Videos"
+  authors: Joshua P Ebenezer*, Zaixi Shang*, Yongjun Wu, Hai Wei, Sriram Sethuraman, Alan C Bovik
+  equal_contribution: true
+  venue: "Signal Processing: Image Communication"
+  year: 2024
+  section: research
+  image: /assets/img/publications/hdr-chipqa.jpg
+  pdf: https://www.sciencedirect.com/science/article/am/pii/S0923596524000924
+  links:
+    - name: publisher
+      url: https://www.sciencedirect.com/science/article/pii/S0923596524000924
+  abstract: >-
+    We present a no-reference video quality model and algorithm that delivers standout performance for
+    High Dynamic Range (HDR) videos, which we call HDR-ChipQA. HDR videos represent wider ranges of luminances,
+    details, and colors than Standard Dynamic Range (SDR) videos. The growing adoption of HDR in massively
+    scaled video networks has driven the need for video quality assessment (VQA) algorithms that better
+    account for distortions on HDR content. In particular, standard VQA models may fail to capture conspicuous
+    distortions at the extreme ends of the dynamic range, because the features that drive them may be
+    dominated by distortions that pervade the mid-ranges of the signal. We introduce a new approach whereby
+    a local expansive nonlinearity emphasizes distortions occurring at the higher and lower ends of the
+    local luma range, allowing for the deﬁnition of additional quality-aware features that are computed
+    along a separate path. These features are not HDR-speciﬁc, and also improve VQA on SDR video contents,
+    albeit to a reduced degree. We show that this preprocessing step signiﬁcantly boosts the power of
+    distortion-sensitive natural video statistics (NVS) features when used to predict the quality of HDR
+    content. In similar manner, we separately compute novel wide-gamut color features using the same nonlinear
+    processing steps. We have found that our model signiﬁcantly outperforms SDR VQA algorithms on the
+    only publicly available, comprehensive HDR database, while also attaining state-of-the-art performance
+    on SDR content.
+  scholar_id: 0EnyYjriUFMC
+- title: "Quality Assessment in Media and Entertainment: Challenges and Trends"
+  authors: Abhinau K Venkataramanan, Zaixi Shang, Joshua P Ebenezer, Meixu Chen, Zhengzhong Tu, Alan C
+    Bovik
+  venue: "Computer Vision: Challenges, Trends, and Opportunities (book chapter)"
+  year: 2024
+  section: research
+  image: /assets/img/publications/qa-media-chapter.jpg
+  pdf: /assets/pdf/papers/quality-assessment-media-entertainment.pdf
+  links: []
+  abstract: >-
+    Assessing and optimizing the perceptual quality of media plays an important role in enhancing the
+    subjective experiences of hundreds of millions of television, streaming, and social media viewers.
+    Quality assessment methods may be broadly categorized into “subjective” and “objective” methods. Subjective
+    quality assessment consists of conducting studies where participants manually rate the quality of
+    media. On the other hand, objective quality models consist of algorithms designed to accurately predict
+    subjective quality. In this chapter, we will discuss the challenges in assessing the quality of popular
+    visual media, including streaming video, virtual reality, high-dynamic-range, high-framerate, and
+    user-generated video. In particular, we will discuss subjective databases and state-of-the-art quality
+    models that have been developed to address the problem of quality assessment. Finally, we will discuss
+    future trends and open problems that are interesting to tackle.
+  scholar_id: 3fE2CSJIrl8C
+- title: HDR or SDR? A Subjective and Objective Study of Scaled and Compressed Videos
+  authors: Joshua P Ebenezer*, Zaixi Shang*, Yixu Chen, Yongjun Wu, Hai Wei, Sriram Sethuraman, Alan C Bovik
+  equal_contribution: true
+  venue: IEEE Transactions on Image Processing
+  year: 2024
+  section: research
+  image: /assets/img/publications/hdr-or-sdr.jpg
+  pdf: https://arxiv.org/pdf/2304.13162
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/10542644/
+    - name: arXiv
+      url: https://arxiv.org/abs/2304.13162
+  abstract: >-
+    We conducted a large-scale study of human perceptual quality judgments of High Dynamic Range (HDR)
+    and Standard Dynamic Range (SDR) videos subjected to scaling and compression levels and viewed on
+    three different display devices. HDR videos are able to present wider color gamuts, better contrasts,
+    and brighter whites and darker blacks than SDR videos. While conventional expectations are that HDR
+    quality is better than SDR quality, we have found subject preference of HDR versus SDR depends heavily
+    on the display device, as well as on resolution scaling and bitrate. To study this question, we collected
+    more than 23,000 quality ratings from 67 volunteers who watched 356 videos on OLED, QLED, and LCD
+    televisions. Since it is of interest to be able to measure the quality of videos under these scenarios,
+    e.g. to inform decisions regarding scaling, compression, and SDR vs HDR, we tested several well-known
+    full-reference and no-reference video quality models on the new database. Towards advancing progress
+    on this problem, we also developed a novel no-reference model called HDRPatchMAX, that uses both classical
+    and bit-depth sensitive distortion statistics more accurately than existing metrics.
+  scholar_id: hqOjcs7Dif8C
+- title: A Study of Subjective and Objective Quality Assessment of HDR Videos
+  authors: >-
+    Zaixi Shang*, Joshua P Ebenezer*, Abhinau K Venkataramanan, Yongjun Wu, Hai Wei, Sriram Sethuraman,
+    Alan C Bovik
+  equal_contribution: true
+  venue: IEEE Transactions on Image Processing
+  year: 2023
+  section: research
+  image: /assets/img/publications/live-hdr.jpg
+  pdf: https://par.nsf.gov/servlets/purl/10503357
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/10325414/
+  abstract: >-
+    As compared to standard dynamic range (SDR) videos, high dynamic range (HDR) content is able to represent
+    and display much wider and more accurate ranges of brightness and color, leading to more engaging
+    and enjoyable visual experiences. HDR also implies increases in data volume, further challenging existing
+    limits on bandwidth consumption and on the quality of delivered content. Perceptual quality models
+    are used to monitor and control the compression of streamed SDR content. A similar strategy should
+    be useful for HDR content, yet there has been limited work on building HDR video quality assessment
+    (VQA) algorithms. One reason for this is a scarcity of highquality HDR VQA databases representative
+    of contemporary HDR standards. Towards filling this gap, we created the first publicly available HDR
+    VQA database dedicated to HDR10 videos, called the Laboratory for Image and Video Engineering (LIVE)
+    HDR Database. It comprises 310 videos from 31 distinct source sequences processed by ten different
+    compression and resolution combinations, simulating bitrate ladders used by the streaming industry.
+    We used this data to conduct a subjective quality study, gathering more than 20,000 human quality
+    judgments under two different illumination conditions. To demonstrate the usefulness of this new psychometric
+    data resource, we also designed a new full-reference (FR) HDR VQA algorithm called HDR-VMAF, extending
+    the widely-deployed Video Multimethod Assessment Fusion (VMAF) model using a nonlinear transform to
+    highlight distortions on HDR-enhanced areas. We show that HDR-VMAF provides significantly elevated
+    performance on both HDR and SDR videos, exceeding prior state-of-the-art model performance.
+  scholar_id: MXK_kJrjxJIC
+- title: Making Video Quality Assessment Models Robust to Bit Depth
+  authors: Joshua P Ebenezer, Zaixi Shang, Yongjun Wu, Hai Wei, Sriram Sethuraman, Alan C Bovik
+  venue: IEEE Signal Processing Letters
+  year: 2023
+  section: research
+  image: /assets/img/publications/bit-depth.jpg
+  pdf: https://arxiv.org/pdf/2304.13092
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/10105991/
+    - name: arXiv
+      url: https://arxiv.org/abs/2304.13092
+  abstract: >-
+    We introduce a novel feature set, which we call HDRMAX features, that when included into Video Quality
+    Assessment (VQA) algorithms designed for Standard Dynamic Range (SDR) videos, sensitizes them to distortions
+    of High Dynamic Range (HDR) videos that are inadequately accounted for by these algorithms. While
+    these features are not specific to HDR, and also augment the equality prediction performances of VQA
+    models on SDR content, they are especially effective on HDR. HDRMAX features modify powerful priors
+    drawn from Natural Video Statistics (NVS) models by enhancing their measurability where they visually
+    impact the brightest and darkest local portions of videos, thereby capturing distortions that are
+    often poorly accounted for by existing VQA models. As a demonstration of the efficacy of our approach,
+    we show that, while current state-of-the-art VQA models perform poorly on 10-bit HDR databases, their
+    performances are greatly improved by the inclusion of HDRMAX features when tested on HDR and 10-bit
+    distorted videos.
+  scholar_id: UebtZRa9Y70C
+- title: "No-Reference Video Quality Assessment: High Motion and High Dynamic Range Videos"
+  authors: Joshua Peter Ebenezer
+  venue: PhD Dissertation, The University of Texas at Austin
+  year: 2023
+  section: research
+  image: /assets/img/publications/phd-thesis.jpg
+  pdf: https://repositories.lib.utexas.edu/bitstreams/2dff7167-d5f8-4ca1-b69d-4bf339a25ebe/download
+  links:
+    - name: proquest
+      url: >-
+        https://search.proquest.com/openview/ebd4a80052fc462d353720b827170e96/1?pq-origsite=gscholar&cbl=18750&diss=y
+  abstract: >-
+    Video content continues to proliferate, already accounting for more than 70% of internet traffic,
+    and projected to exceed 82% of internet traffic by 2021. Distortions can affect videos as they are
+    captured, transmitted, and received. It is of vital importance to providers of video content to be
+    able to monitor and predict the perceptual quality of their videos, since this directly impacts customer
+    satisfaction. Video quality tools can also help make well-informed design choices while creating systems
+    for capturing, processing, transmitting, and displaying videos. Video quality assessment algorithms
+    also have applications in video denoising, designing loss functions for deep learning, video compression,
+    and many other high-impact areas.
+  scholar_id: 5nxA0vEk-isC
+- title: A Subjective Study of the Perceptual Acceptability of Audio-Video Desynchronization in Sports
+    Videos
+  authors: Joshua Peter Ebenezer
+  venue: arXiv preprint
+  year: 2022
+  section: research
+  image: /assets/img/publications/av-desync-study.jpg
+  pdf: https://arxiv.org/pdf/2212.01686
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2212.01686
+  abstract: >-
+    This paper presents the results of a study conducted on the perceptual acceptability of audio-video
+    desynchronization for sports videos. The study was conducted with 45 videos generated by applying
+    8 audio-video offsets on 5 source contents. 20 subjects participated in the study. The results show
+    that humans are more sensitive to audio-video offset errors for speech stimuli, and the complex events
+    that occur in sports broadcasts have higher thresholds of acceptability. This suggests the tuning
+    of audio-video synchronization requirements in broadcasting to the content of the broadcast.
+  scholar_id: Se3iqnhoufwC
+- title: Subjective Assessment of High Dynamic Range Videos Under Different Ambient Conditions
+  authors: Zaixi Shang*, Joshua P Ebenezer*, Alan C Bovik, Yongjun Wu, Hai Wei, Sriram Sethuraman
+  equal_contribution: true
+  venue: IEEE International Conference on Image Processing (ICIP)
+  year: 2022
+  section: research
+  image: /assets/img/publications/hdr-ambient.jpg
+  pdf: https://arxiv.org/pdf/2209.10005
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/9897940/
+    - name: arXiv
+      url: https://arxiv.org/abs/2209.10005
+  abstract: >-
+    High Dynamic Range (HDR) videos can represent a much greater range of brightness and color than Standard
+    Dynamic Range (SDR) videos and are rapidly becoming an industry standard. HDR videos have more challenging
+    capture, transmission, and display requirements than legacy SDR videos. With their greater bit depth,
+    advanced electro-optical transfer functions, and wider color gamuts, comes the need for video quality
+    algorithms that are specifically designed to predict the quality of HDR videos. Towards this end,
+    we present the first publicly released large-scale subjective study of HDR videos. We study the effect
+    of distortions such as compression and aliasing on the quality of HDR videos. We also study the effect
+    of ambient illumination on perceptual quality of HDR videos by conducting the study in both a dark
+    lab environment and a brighter living-room environment. A total of 66 subjects participated in the
+    study and more than 20,000 opinion scores were collected, which makes this the largest in-lab study
+    of HDR video quality ever. We anticipate that the dataset will be a valuable resource for researchers
+    to develop better models of perceptual quality for HDR videos.
+  scholar_id: roLk4NBRz8UC
+- title: Subjective and Objective Quality Assessment of High-Motion Sports Videos at Low-Bitrates
+  authors: Joshua P Ebenezer, Yixu Chen, Yongjun Wu, Hai Wei, Sriram Sethuraman
+  venue: IEEE International Conference on Image Processing (ICIP)
+  year: 2022
+  section: research
+  image: /assets/img/publications/sports-low-bitrate.jpg
+  pdf: https://arxiv.org/pdf/2207.05798
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/9897837/
+    - name: arXiv
+      url: https://arxiv.org/abs/2207.05798
+  abstract: >-
+    Videos often have to be transmitted and stored at low bitrates due to poor network connectivity during
+    adaptive bitrate streaming. Designing optimal bitrate ladders that would select the perceptually-optimized
+    resolution, frame-rate, and compression level for low-bitrate videos for adaptive streaming across
+    the internet is therefore a task of great interest. Towards that end, we conducted the first large-scale
+    study of medium and low-bitrate videos from live sports for two codecs (Elemental AVC and HEVC) and
+    created the Amazon Prime Video Low-Bitrate Sports (APV LBS) dataset. The study involved 94 participants
+    and 742 videos, with more than 23,000 human opinion scores collected in total. We analyzed the data
+    obtained and we also conducted an extensive evaluation of objective Video Quality Assessment (VQA)
+    algorithms and benchmarked their performance, and make recommendations on bitrate ladder design. We're
+    making the metadata and VQA features available at https://github.com/JoshuaEbenezer/lbmfr-public.
+  scholar_id: LkGwnXOMwfcC
+- title: Detecting Audio-Video Desynchronization
+  authors: Yongjun Wu, Joshua Peter Ebenezer, Sriram Sethuraman, Hai Wei, Zongyi Liu
+  venue: US Patent 11,336,935 B1
+  year: 2022
+  section: patents
+  image: /assets/img/publications/patent-av-desync.jpg
+  pdf: https://patentimages.storage.googleapis.com/0b/63/85/43f13fe2776b05/US11336935.pdf
+  links:
+    - name: patent
+      url: https://patents.google.com/patent/US11336935B1/en
+  abstract: Techniques are described for detecting desynchronization between an audio stream and a video
+    stream.
+  scholar_id: _FxGoFyzp5QC
+- title: A Comparative Study of Single Image Fog Removal Methods
+  authors: Bijaylaxmi Das, Joshua Peter Ebenezer, Sudipta Mukhopadhyay
+  venue: The Visual Computer
+  year: 2022
+  section: research
+  image: /assets/img/publications/fog-removal-study.jpg
+  pdf: /assets/pdf/papers/fog-removal-comparative-study.pdf
+  links:
+    - name: publisher
+      url: https://link.springer.com/article/10.1007/s00371-020-02010-4
+  abstract: >-
+    The presence of fog degrades visibility in natural scene conditions. Computer vision applications
+    like navigation, tracking, and surveillance need clear atmospheric images or videos as prerequisites
+    for optimal performance. However, foggy atmosphere creates problems for computer vision applications
+    due to reduced visibility. Different fog removal techniques are used to improve the visual quality
+    of images and videos. The fog density depends on the depth information. Scene depth information estimation
+    needs multiple images, which limits its real-life application. Hence, a single image fog removal requires
+    some prior knowledge and/or assumptions to get the depth information. In this paper, the recent fog
+    removal techniques are grouped into three broad categories: (1) ﬁlter-based methods, (2) color correction
+    based methods, and (3) learning-based methods, for ease of understanding. The primary objective is
+    to provide an introduction to this ﬁeld and compare performance (both qualitative and quantitative)
+    of representative techniques for each category. It is found that ﬁlter-based methods are doing overall
+    better compared to other categories.
+  scholar_id: IjCSPb-OGe4C
+- title: Study of the Subjective and Objective Quality of High Motion Live Streaming Videos
+  authors: Zaixi Shang*, Joshua Peter Ebenezer*, Yongjun Wu, Hai Wei, Sriram Sethuraman, Alan C Bovik
+  equal_contribution: true
+  venue: IEEE Transactions on Image Processing
+  year: 2021
+  section: research
+  image: /assets/img/publications/live-livestream.jpg
+  pdf: /assets/pdf/papers/live-livestream-tip.pdf
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/9662669/
+  abstract: >-
+    Video livestreaming is gaining prevalence among video streaming services, especially for the delivery
+    of live, high motion content such as sporting events. The quality of these livestreaming videos can
+    be adversely affected by any of a wide variety of events, including capture artifacts, and distortions
+    incurred during coding and transmission. High motion content can cause or exacerbate many kinds of
+    distortion, such as motion blur and stutter. Because of this, the development of objective Video Quality
+    Assessment (VQA) algorithms that can predict the perceptual quality of high motion, live streamed
+    videos is greatly desired. Important resources for developing these algorithms are appropriate databases
+    that exemplify the kinds of live streaming video distortions encountered in practice. Towards making
+    progress in this direction, we built a video quality database speciﬁcally designed for live streaming
+    VQA research. The new video database is called the Laboratory for Image and Video Engineering (LIVE)
+    Livestream Database. The LIVE Livestream Database includes 315 videos of 45 source sequences from
+    33 original contents impaired by 6 types of distortions. We also performed a subjective quality study
+    using the new database, whereby more than 12,000 human opinions were gathered from 40 subjects. We
+    demonstrate the usefulness of the new resource by performing a holistic evaluation of the performance
+    of current state-of-the-art (SOTA) VQA models. We envision that researchers will ﬁnd the dataset to
+    be useful for the development, testing, and comparison of future VQA models. The LIVE Livestream database
+    is being made publicly available for these purposes at https://live.ece. utexas.edu/research/LIVE_APV_Study/apv_index.html
+  scholar_id: WF5omc3nYNoC
+- title: "ChipQA: No-Reference Video Quality Prediction via Space-Time Chips"
+  authors: Joshua Peter Ebenezer*, Zaixi Shang*, Yongjun Wu, Hai Wei, Sriram Sethuraman, Alan C Bovik
+  equal_contribution: true
+  venue: IEEE Transactions on Image Processing
+  year: 2021
+  section: research
+  image: /assets/img/publications/chipqa.jpg
+  pdf: https://arxiv.org/pdf/2109.08726
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/9540785/
+    - name: arXiv
+      url: https://arxiv.org/abs/2109.08726
+  abstract: >-
+    We propose a new model for no-reference video quality assessment (VQA). Our approach uses a new idea
+    of highly-localized space-time (ST) slices called Space-Time Chips (ST Chips). ST Chips are localized
+    cuts of video data along directions that \textit{implicitly} capture motion. We use perceptually-motivated
+    bandpass and normalization models to first process the video data, and then select oriented ST Chips
+    based on how closely they fit parametric models of natural video statistics. We show that the parameters
+    that describe these statistics can be used to reliably predict the quality of videos, without the
+    need for a reference video. The proposed method implicitly models ST video naturalness, and deviations
+    from naturalness. We train and test our model on several large VQA databases, and show that our model
+    achieves state-of-the-art performance at reduced cost, without requiring motion computation.
+  scholar_id: W7OEmFMy1HYC
+- title: Assessment of Subjective and Objective Quality of Live Streaming Sports Videos
+  authors: Zaixi Shang, Joshua P Ebenezer, Alan C Bovik, Yongjun Wu, Hai Wei, Sriram Sethuraman
+  venue: Picture Coding Symposium (PCS)
+  year: 2021
+  section: research
+  image: /assets/img/publications/livestream-pcs.jpg
+  pdf: https://arxiv.org/pdf/2106.08431
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/9477502/
+    - name: arXiv
+      url: https://arxiv.org/abs/2106.08431
+  abstract: >-
+    Video live streaming is gaining prevalence among video streaming services, especially for the delivery
+    of popular sporting events. Many objective Video Quality Assessment (VQA) models have been developed
+    to predict the perceptual quality of videos. Appropriate databases that exemplify the distortions
+    encountered in live streaming videos are important to designing and learning objective VQA models.
+    Towards making progress in this direction, we built a video quality database specifically designed
+    for live streaming VQA research. The new video database is called the Laboratory for Image and Video
+    Engineering (LIVE) Live stream Database. The LIVE Livestream Database includes 315 videos of 45 contents
+    impaired by 6 types of distortions. We also performed a subjective quality study using the new database,
+    whereby more than 12,000 human opinions were gathered from 40 subjects. We demonstrate the usefulness
+    of the new resource by performing a holistic evaluation of the performance of current state-of-the-art
+    (SOTA) VQA models. The LIVE Livestream database is being made publicly available for these purposes
+    at https://live.ece.utexas.edu/research/LIVE_APV_Study/apv_index.html.
+  scholar_id: Y0pCki6q_DkC
+- title: Detection of Audio-Video Synchronization Errors via Event Detection
+  authors: Joshua P Ebenezer, Yongjun Wu, Hai Wei, Sriram Sethuraman, Zongyi Liu
+  venue: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  year: 2021
+  section: research
+  image: /assets/img/publications/av-sync-icassp.jpg
+  pdf: https://arxiv.org/pdf/2104.10116
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/9414924/
+    - name: arXiv
+      url: https://arxiv.org/abs/2104.10116
+  abstract: >-
+    We present a new method and a large-scale database to detect audio-video synchronization(A/V sync)
+    errors in tennis videos. A deep network is trained to detect the visual signature of the tennis ball
+    being hit by the racquet in the video stream. Another deep network is trained to detect the auditory
+    signature of the same event in the audio stream. During evaluation, the audio stream is searched by
+    the audio network for the audio event of the ball being hit. If the event is found in audio, the neighboring
+    interval in video is searched for the corresponding visual signature. If the event is not found in
+    the video stream but is found in the audio stream, A/V sync error is flagged. We developed a large-scaled
+    database of 504,300 frames from 6 hours of videos of tennis events, simulated A/V sync errors, and
+    found our method achieves high accuracy on the task.
+  scholar_id: Tyk-4Ss8FVUC
+- title: P2P Live Streaming with Recommender Systems
+  authors: Abhinau K Venkataramanan, Joshua Ebenezer, Aniruddh Venkatakrishnan
+  venue: Course project report, UT Austin
+  year: 2021
+  section: other
+  image: /assets/img/publications/p2p-streaming.jpg
+  pdf: /assets/pdf/P2P_Live_Streaming_with_Recommender_Systems.pdf
+  links: []
+  abstract: >-
+    This system involves people/devices live streaming various channel data (J) from different servers.
+    The server bandwidth, in itself, is insufficient to satisfy the streaming-rate for all the users viewing
+    the channel. To overcome this issue, each user also redistributes the data it receives into the system
+    thereby increasing the effective bandwidth of each channel. Viewing and uploading are strictly decoupled
+    in this model, which was introduced in [1]. All allocations are implemented with the aim of maximizing
+    Probability of Universal Streaming (PUS) which gives the probability that all users of a channel get
+    sufficient bandwidth for uninterrupted viewing.
+  scholar_id: eQOLeE2rZwMC
+- title: Combinatorial Auctions
+  authors: Joshua Peter Ebenezer
+  venue: Final project report, Combinatorial Optimization, UT Austin
+  year: 2020
+  section: other
+  image: /assets/img/publications/combinatorial-auctions.jpg
+  pdf: /assets/pdf/Combinatorial_Auctions.pdf
+  links: []
+  abstract: >-
+    A combinatorial auction is a type of auction in which bidders can assign values to combinations of
+    items, instead of only assigning values to individual items. These are useful in situations where
+    bidders place more or less value to a combination of items than to the sum of the individual values
+    of those items. In this project report, some of the main results in combinatorial auctions are studied
+    in an expository fashion, with particular attention given to a subclass of combinatorial auctions
+    called the submodular welfare problem.
+  scholar_id: ufrVoPGSRksC
+- title: No-Reference Video Quality Assessment Using Space-Time Chips
+  authors: Joshua P Ebenezer*, Zaixi Shang*, Yongjun Wu, Hai Wei, Alan C Bovik
+  equal_contribution: true
+  venue: IEEE International Workshop on Multimedia Signal Processing (MMSP)
+  year: 2020
+  section: research
+  image: /assets/img/publications/chipqa-mmsp.jpg
+  pdf: https://arxiv.org/pdf/2008.00031
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/9287151/
+    - name: arXiv
+      url: https://arxiv.org/abs/2008.00031
+  abstract: >-
+    We propose a new prototype model for no-reference video quality assessment (VQA) based on the natural
+    statistics of space-time chips of videos. Space-time chips (ST-chips) are a new, quality-aware feature
+    space which we define as space-time localized cuts of video data in directions that are determined
+    by the local motion flow. We use parametrized distribution fits to the bandpass histograms of space-time
+    chips to characterize quality, and show that the parameters from these models are affected by distortion
+    and can hence be used to objectively predict the quality of videos. Our prototype method, which we
+    call ChipQA-0, is agnostic to the types of distortion affecting the video, and is based on identifying
+    and quantifying deviations from the expected statistics of natural, undistorted ST-chips in order
+    to predict video quality. We train and test our resulting model on several large VQA databases and
+    show that our model achieves high correlation against human judgments of video quality and is competitive
+    with state-of-the-art models.
+  scholar_id: UeHWp8X0CEIC
+- title: A Fast and Accurate Class of Carrier Recovery Schemes
+  authors: Joshua Peter Ebenezer, P Murali Krishna
+  venue: IEEE Region 10 Conference (TENCON)
+  year: 2019
+  section: research
+  image: /assets/img/publications/carrier-recovery.jpg
+  pdf: /assets/pdf/papers/carrier-recovery-tencon.pdf
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/8929389/
+  abstract: >-
+    This paper introduces a class of carrier recovery scheme based on simple trigonometric identities.
+    We revisit carrier recovery schemes that have been in use for many years, and compare their relative
+    performances using quantitative metrics. We show that trigonometric identities can be used to recover
+    carriers faster and better than conventional control loop based schemes in special cases where there
+    is a unique frequency locked relationship between the carriers and the pilot of the scheme. PLL and
+    Costas loop based schemes have been carried over from analog systems and are now implemented on digital
+    hardware without fully exploiting the advantages of digital systems, but we propose a simple scheme
+    that can outperform these legacy methods in speciﬁc protocols, and be incorporated into modern receivers
+    of any protocol having frequency-locked carriers of a pilot. We present results for the speciﬁc case
+    of the FM-RDS protocol as an example.
+  scholar_id: 9yKSN-GCB0IC
+- title: A Screening CAD Tool for the Detection of Microcalcification Clusters in Mammograms
+  authors: >-
+    Vikrant A Karale, Joshua P Ebenezer, Jayasree Chakraborty, Tulika Singh, Anup Sadhu, Niranjan Khandelwal,
+    Sudipta Mukhopadhyay
+  venue: Journal of Digital Imaging
+  year: 2019
+  section: research
+  image: /assets/img/publications/cad-mammograms.jpg
+  pdf: https://pmc.ncbi.nlm.nih.gov/articles/PMC6737166/pdf/10278_2019_Article_249.pdf
+  links:
+    - name: publisher
+      url: https://link.springer.com/article/10.1007/s10278-019-00249-5
+  abstract: >-
+    Breast cancer is the most common cancer diagnosed in women worldwide. Up to 50% of non-palpable breast
+    cancers are detected solely through microcalcification clusters in mammograms. This article presents
+    a novel and completely automated algorithm for the detection of microcalcification clusters in a mammogram.
+    A multiscale 2D non-linear energy operator is proposed for enhancing the contrast between the microcalcifications
+    and the background. Several texture, shape, intensity, and histogram of oriented gradients (HOG)–based
+    features are used to distinguish microcalcifications from other brighter mammogram regions. A new
+    majority class data reduction technique based on data distribution is proposed to counter data imbalance
+    problem. The algorithm is able to achieve 100% sensitivity with 2.59, 1.78, and 0.68 average false
+    positives per image on Digital Database for Screening Mammography (scanned film), INbreast (direct
+    radiography) database, and PGIMER-IITKGP mammogram (direct radiography) database, respectively. Thus,
+    it might be used as a second reader as well as a screening tool to reduce the burden on radiologists.
+  scholar_id: d1gkVwhDpl0C
+- title: Single Image Haze Removal Using Conditional Wasserstein Generative Adversarial Networks
+  authors: Joshua Peter Ebenezer, Bijaylaxmi Das, Sudipta Mukhopadhyay
+  venue: European Signal Processing Conference (EUSIPCO)
+  year: 2019
+  section: research
+  image: /assets/img/publications/cwgan-dehaze.jpg
+  pdf: https://arxiv.org/pdf/1903.00395
+  links:
+    - name: publisher
+      url: https://ieeexplore.ieee.org/abstract/document/8902992/
+    - name: arXiv
+      url: https://arxiv.org/abs/1903.00395
+  abstract: >-
+    We present a method to restore a clear image from a haze-affected image using a Wasserstein generative
+    adversarial network. As the problem is ill-conditioned, previous methods have required a prior on
+    natural images or multiple images of the same scene. We train a generative adversarial network to
+    learn the probability distribution of clear images conditioned on the haze-affected images using the
+    Wasserstein loss function, using a gradient penalty to enforce the Lipschitz constraint. The method
+    is data-adaptive, end-to-end, and requires no further processing or tuning of parameters. We also
+    incorporate the use of a texture-based loss metric and the L1 loss to improve results, and show that
+    our results are better than the current state-of-the-art.
+  scholar_id: u5HHmVD_uO8C
+- title: Fog Removal from Videos
+  authors: Joshua Peter Ebenezer
+  venue: Undergraduate Thesis, Indian Institute of Technology Kharagpur
+  year: 2019
+  section: research
+  image: /assets/img/publications/fog-removal-videos.jpg
+  pdf: null
+  links: []
+  abstract: ""
+  scholar_id: YsMSGLbcyi4C
+- title: Automatic Segmentation of Skin Lesions Using Deep Learning
+  authors: Joshua Peter Ebenezer, Jagath C Rajapakse
+  venue: arXiv preprint
+  year: 2018
+  section: research
+  image: /assets/img/publications/skin-lesion-seg.jpg
+  pdf: https://arxiv.org/pdf/1807.04893
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/1807.04893
+  abstract: >-
+    This paper summarizes the method used in our submission to Task 1 of the International Skin Imaging
+    Collaboration's (ISIC) Skin Lesion Analysis Towards Melanoma Detection challenge held in 2018. We
+    used a fully automated method to accurately segment lesion boundaries from dermoscopic images. A U-net
+    deep learning network is trained on publicly available data from ISIC. We introduce the use of intensity,
+    color, and texture enhancement operations as pre-processing steps and morphological operations and
+    contour identification as post-processing steps.
+  scholar_id: u-x6o8ySG0sC

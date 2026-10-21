@@ -1,0 +1,38 @@
+# Product impact entries shown above Research on the home page (layout: _layouts/scholar_home.liquid).
+# image: under assets/img/impact/; credit: source of the comparison image
+- title: Generative Remaster in Samsung Gallery
+  product: Samsung Gallery
+  year: 2026
+  image: /assets/img/impact/remaster-2026.jpg
+  description: >-
+    Led the generative image restoration team behind the Remaster feature in Samsung Gallery. Adapted vision foundation models for restoration and distilled them into fast single-step models for cloud and on-device deployment.
+
+- title: Night Mode
+  product: Galaxy S26 series
+  year: 2025
+  image: /assets/img/impact/nightmode-2025.jpg
+  description: >-
+    Designed the training pipelines (data rendering and loss functions) for the deep-learning multi-frame Night mode networks on the Galaxy S26 series. Trained the end-to-end systems for the Tele1 and Max Mode features of Night mode, deployed on both Snapdragon and Exynos.
+  credit:
+    name: SuperSaf
+    url: https://youtu.be/Y--2FFqss3I
+
+- title: Night Mode
+  product: Galaxy S25 series
+  year: 2024
+  image: /assets/img/impact/nightmode-2024.jpg
+  description: >-
+    Developed training techniques for the deep-learning multi-frame Night mode pipeline that shipped on the Galaxy S25 series, improving low-light captures from the 1x camera.
+  credit:
+    name: SuperSaf
+    url: https://youtu.be/d2aSQ5jOiPc?t=449
+
+- title: Telephoto Zoom (10x–100x)
+  product: Galaxy S24 Ultra
+  year: 2023
+  image: /assets/img/impact/telephoto-2023.jpg
+  description: >-
+    Developed image registration algorithms for the multi-frame super-resolution pipeline behind 10x–100x zoom on the Galaxy S24 Ultra, along with filtering methods that balance detail generation against fidelity.
+  credit:
+    name: Loud and Wireless
+    url: https://www.loudnwireless.com/blog/galaxy-s24-ultra-vs-s23-ultra-camera-comparison-review-not-an-upgrade

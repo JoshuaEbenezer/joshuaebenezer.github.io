@@ -1,0 +1,209 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+  {% if page.layout == 'scholar_post' %}{{ page.title }} | {% endif %}
+  {{ site.title }}
+</title>
+<meta name="author" content="{{ site.title }}">
+<meta name="description" content="{{ page.description | default: site.description | strip }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+{% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+{% endif %}
+<style>
+  :root {
+    --text: #222;
+    --muted: #555;
+    --bg: #fff;
+    --link: #1772d0;
+    --link-hover: #f09228;
+    --rule: #e6e6e6;
+    color-scheme: light;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  a {
+    color: var(--link);
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: var(--link-hover);
+  }
+  .page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+  }
+  .intro {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+  }
+  .intro-text {
+    flex: 1 1 60%;
+  }
+  .intro-photo {
+    flex: 0 0 34%;
+  }
+  .intro-photo img {
+    width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin: 8px 0 4px;
+  }
+  .subtitle {
+    text-align: center;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+  .contact {
+    text-align: center;
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 40px 0 4px;
+  }
+  .section-desc {
+    margin: 0 0 8px;
+    color: var(--muted);
+  }
+  .pub {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .pub:last-child {
+    border-bottom: 0;
+  }
+  .pub-img {
+    flex: 0 0 26%;
+    min-width: 120px;
+  }
+  .pub-img img {
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 4px;
+  }
+  .pub-body {
+    flex: 1 1 70%;
+    min-width: 0;
+  }
+  .pub-title {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .pub-meta,
+  .pub-links {
+    margin-top: 2px;
+  }
+  .pub-authors strong {
+    font-weight: 700;
+  }
+  .equal-note {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .impact-desc {
+    margin: 6px 0 4px;
+  }
+  .abstract {
+    margin: 8px 0 0;
+    color: var(--muted);
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .pub-links > * + *::before {
+    content: ' / ';
+    color: var(--text);
+  }
+  .abstract.open {
+    display: block;
+  }
+  .abstract-toggle {
+    background: none;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    color: var(--link);
+    cursor: pointer;
+  }
+  .abstract-toggle:hover {
+    color: var(--link-hover);
+  }
+  .bottom-link {
+    margin: 40px 0 0;
+    text-align: center;
+  }
+  .post-page {
+    max-width: 720px;
+  }
+  .back-link {
+    margin: 0 0 8px;
+  }
+  .post-page h1 {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .post-page h2 {
+    margin-top: 32px;
+  }
+  .post-page p {
+    margin: 0 0 14px;
+  }
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  @media (max-width: 600px) {
+    .intro {
+      flex-direction: column-reverse;
+    }
+    .intro-photo {
+      width: 55%;
+    }
+    .pub {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .pub-img img {
+      max-height: 240px;
+    }
+  }
+</style>

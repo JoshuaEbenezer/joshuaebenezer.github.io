@@ -1,32 +1,37 @@
 ---
-layout: about
+layout: scholar_home
 title: about
 permalink: /
-subtitle: Staff Research Engineer at Samsung Research America
+subtitle: Senior Computer Vision and Machine Learning Engineer at Apple
 
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# name variants that are bolded in author lists
+author_names:
+  - Joshua Peter Ebenezer
+  - Joshua P Ebenezer
+  - Joshua Ebenezer
 
-announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+# product impact entries come from _data/impact.yml and are shown above the publications
+impact:
+  title: Product Impact
+  description: Computational photography algorithms developed at Samsung Research and shipped in Galaxy flagship cameras.
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# publications come from _data/publications.yml, grouped by their `section` field
+publication_sections:
+  - key: research
+    title: Research
+    description: Research spans computational photography, image and video quality assessment, and deep learning.
+  - key: patents
+    title: Patents
+  - key: other
+    title: Other Projects
+    description: Course projects and reports.
 ---
 
-I am a Staff Research Engineer at Samsung Research America's (SRA) Mobile Processor Innovation (MPI) Lab, where I work on commercial camera projects (Telephoto Zoom, Night mode) and Generative AI for flagship phones. I completed my PhD at the Laboratory for Image and Video Engineering (LIVE) at UT Austin (2019–2023) under Prof. Alan Bovik and served as Assistant Director of LIVE from 2020–2023.
+I'm currently a Senior Computer Vision and Machine Learning Engineer at Apple, working on Generative AI for images in the Creator Studio Apps team. I was previously Staff Research Engineer II at Samsung Research, where I worked on commercial camera projects (Telephoto Zoom, Night mode) and Generative AI for flagship phones in the Mobile Processor Innovation (MPI) Lab. I completed my PhD at the Laboratory for Image and Video Engineering (LIVE) at UT Austin (2019–2023) under Prof. Alan Bovik and served as Assistant Director of LIVE from 2020–2023.
 
 My research interests include computational photography, image and video quality assessment, and deep learning. I received a B.Tech. from IIT Kharagpur and my PhD thesis focused on no-reference video quality assessment for livestreamed high-motion and HDR videos (sponsored by Amazon Prime Video).
-
-For a complete list of publications, see my [Google Scholar](https://scholar.google.co.in/citations?user=xbQZ-PUAAAAJ&hl=en) profile.
 
 Outside research, I enjoy playing keyboard and guitar, reading theology, history, and philosophy, and volunteering. During my time at UT Austin I served as President of the Austin chapter of Bridges International.

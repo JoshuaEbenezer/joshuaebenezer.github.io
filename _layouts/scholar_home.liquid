@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include scholar_head.liquid %}
+  </head>
+  <body>
+    <main class="page">
+      <section class="intro">
+        <div class="intro-text">
+          <h1>{{ site.title }}</h1>
+          {% if page.subtitle %}
+            <p class="subtitle">{{ page.subtitle }}</p>
+          {% endif %}
+          {{ content }}
+          <p class="contact">
+            {% assign s = site.socials %}
+            {% if s.email -%}
+              <a href="mailto:{{ s.email | encode_email }}">Email</a>
+            {%- endif %}
+            {% if s.cv_pdf -%}
+              &nbsp;/&nbsp; <a href="{{ s.cv_pdf | relative_url }}">CV</a>
+            {%- endif %}
+            {% if s.scholar_userid %}
+              &nbsp;/&nbsp; <a href="https://scholar.google.com/citations?user={{ s.scholar_userid }}">Google Scholar</a>
+            {% endif %}
+            {% if s.github -%}
+              &nbsp;/&nbsp; <a href="https://github.com/{{ s.github }}">GitHub</a>
+            {%- endif %}
+            {% if s.linkedin -%}
+              &nbsp;/&nbsp; <a href="https://www.linkedin.com/in/{{ s.linkedin }}">LinkedIn</a>
+            {%- endif %}
+          </p>
+        </div>
+        {% if page.profile.image %}
+          <div class="intro-photo">
+            <img src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Photo of {{ site.title }}">
+          </div>
+        {% endif %}
+      </section>
+
+      {% if site.data.impact.size > 0 %}
+        <h2>{{ page.impact.title | default: 'Product Impact' }}</h2>
+        {% if page.impact.description %}
+          <p class="section-desc">{{ page.impact.description }}</p>
+        {% endif %}
+        {% for item in site.data.impact %}
+          <article class="pub">
+            <div class="pub-img">
+              <img src="{{ item.image | relative_url }}" alt="{{ item.title }} on {{ item.product }}" loading="lazy">
+            </div>
+            <div class="pub-body">
+              <div class="pub-title">{{ item.title }}</div>
+              <div class="pub-meta">
+                <em>{{ item.product }}</em>, {{ item.year }}
+              </div>
+              <p class="impact-desc">{{ item.description }}</p>
+              {% if item.credit %}
+                <div class="equal-note">
+                  Image: <a href="{{ item.credit.url }}">{{ item.credit.name }}</a>
+                </div>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      {% endif %}
+
+      {% for section in page.publication_sections %}
+        {% assign pubs = site.data.publications | where: 'section', section.key %}
+        {% if pubs.size > 0 %}
+          <h2>{{ section.title }}</h2>
+          {% if section.description %}
+            <p class="section-desc">{{ section.description }}</p>
+          {% endif %}
+          {% for pub in pubs %}
+            <article class="pub">
+              <div class="pub-img">
+                {% if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">{% endif %}
+                <img src="{{ pub.image | relative_url }}" alt="Figure from {{ pub.title }}" loading="lazy">
+                {% if pub.pdf %}</a>{% endif %}
+              </div>
+              <div class="pub-body">
+                <div class="pub-title">
+                  {% if pub.pdf -%}
+                    <a href="{{ pub.pdf | relative_url }}">{{ pub.title }}</a>
+                  {%- else -%}
+                    {{- pub.title -}}
+                  {%- endif %}
+                </div>
+                {% assign authors = pub.authors %}
+                {% for name in page.author_names %}
+                  {% capture bold %}<strong>{{ name }}</strong>{% endcapture %}
+                  {% assign authors = authors | replace: name, bold %}
+                {% endfor %}
+                <div class="pub-authors">{{ authors }}</div>
+                {% if pub.equal_contribution %}
+                  <div class="equal-note">* Equal contribution</div>
+                {% endif %}
+                <div class="pub-meta">
+                  <em>{{ pub.venue }}</em>, {{ pub.year }}
+                </div>
+                {% assign abstract_length = pub.abstract | strip | size %}
+                <div class="pub-links">
+                  {% if pub.pdf -%}
+                    <a href="{{ pub.pdf | relative_url }}">pdf</a>
+                  {%- endif %}
+                  {% for link in pub.links %}
+                    <a href="{{ link.url }}">{{ link.name }}</a>
+                  {% endfor %}
+                  {% if abstract_length > 0 -%}
+                    <button type="button" class="abstract-toggle" aria-expanded="false">abstract</button>
+                  {%- endif %}
+                </div>
+                {% if abstract_length > 0 %}
+                  <p class="abstract">{{ pub.abstract }}</p>
+                {% endif %}
+              </div>
+            </article>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+      <p class="bottom-link">
+        <a href="{% post_url 2026-02-09-what-im-reading %}">What I'm reading</a>
+      </p>
+
+      <footer>
+        {{ site.footer_text }}
+        Design adapted from <a href="https://jonbarron.info">Jon Barron's website</a>.
+      </footer>
+    </main>
+    <script>
+      document.querySelectorAll('.abstract-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var abs = btn.closest('.pub-body').querySelector('.abstract');
+          var open = abs.classList.toggle('open');
+          btn.setAttribute('aria-expanded', open);
+        });
+      });
+    </script>
+  </body>
+</html>
