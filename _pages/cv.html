@@ -1,11 +1,20 @@
 ---
-layout: cv
+layout: null
 permalink: /cv/
 title: CV
-nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/20260209_simpleCV.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-toc:
-  sidebar: left
+sitemap: false
+cv_pdf: /assets/pdf/20261020_CV.pdf # the text CV from _data/cv.yml is hidden; /cv/ redirects straight to this PDF
 ---
+
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8" />
+    <title>CV | {{ site.title }}</title>
+    <meta http-equiv="refresh" content="0; url={{ page.cv_pdf | relative_url }}" />
+    <link rel="canonical" href="{{ page.cv_pdf | absolute_url }}" />
+  </head>
+  <body>
+    <p><a href="{{ page.cv_pdf | relative_url }}">Open CV (PDF)</a></p>
+  </body>
+</html>
