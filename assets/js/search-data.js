@@ -30,18 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-book-list",
         
           title: "Book List",
         
-        description: "Books that have shaped my thinking on theology, philosophy, history, and faith",
+        description: "Books that I&#39;m reading and have read",
         section: "Posts",
         handler: () => {
           
@@ -114,7 +107,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/20260209_simpleCV.pdf", "_blank");
+          window.open("/assets/pdf/20261020_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
