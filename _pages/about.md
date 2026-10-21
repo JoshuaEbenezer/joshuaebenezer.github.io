@@ -22,9 +22,10 @@ impact:
 publication_sections:
   - key: research
     title: Research
-    description: Research spans computational photography, image and video quality assessment, and deep learning.
+    description: My research spans computational photography, image and video quality assessment, and deep learning.
   - key: patents
     title: Patents
+    description: 2 public, 7 pending.
   - key: other
     title: Other Projects
     description: Course projects and reports.
