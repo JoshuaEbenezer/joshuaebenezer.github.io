@@ -36,3 +36,13 @@
   credit:
     name: Loud and Wireless
     url: https://www.loudnwireless.com/blog/galaxy-s24-ultra-vs-s23-ultra-camera-comparison-review-not-an-upgrade
+
+- title: HDRMAX for HDR Video Quality Measurement
+  product: Video Clarity ClearView
+  year: 2023
+  image: /assets/img/impact/hdrmax-clearview.jpg
+  description: >-
+    Developed HDRMAX, a feature extraction method that makes video quality models robust to HDR and high bit depth content. HDRMAX extensions are integrated with the VMAF and MS-SSIM metrics in Video Clarity's ClearView Extreme and ClearView Shuttle video quality analyzers.
+  credit:
+    name: Video Clarity
+    url: https://videoclarity.com/videoqualitymeasurement/

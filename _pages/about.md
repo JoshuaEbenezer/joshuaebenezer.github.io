@@ -16,7 +16,7 @@ author_names:
 # product impact entries come from _data/impact.yml and are shown above the publications
 impact:
   title: Product Impact
-  description: Computational photography algorithms developed at Samsung Research and shipped in Galaxy flagship cameras.
+  description: Computational photography and video quality algorithms shipped in Samsung Galaxy flagship phones and commercial video quality analyzers.
 
 # publications come from _data/publications.yml, grouped by their `section` field
 publication_sections:
